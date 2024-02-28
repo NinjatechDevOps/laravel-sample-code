@@ -30,7 +30,7 @@ class AdminUserSeeder extends Seeder
         $admins = [
             [
                 'first_name' => 'Admin',
-                'last_name' => 'BDE',
+                'last_name' => 'test',
                 'email' => 'admin@admin.com',
                 'password' => bcrypt('admin@admin.com'),
                 'is_active' => true,

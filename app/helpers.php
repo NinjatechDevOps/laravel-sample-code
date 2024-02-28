@@ -260,7 +260,7 @@ if (!function_exists('getContactEmail')) {
     }
 }
 if (!function_exists('getContactEmailAdmin')) {
-    function getContactEmailAdmin($default = 'info@bde-ltd.com')
+    function getContactEmailAdmin($default = 'info@test.com')
     {
         return getSetting('inquiry_send_to', 'value', $default);
     }
