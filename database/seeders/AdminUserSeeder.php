@@ -15,18 +15,6 @@ class AdminUserSeeder extends Seeder
      */
     public function run()
     {
-        // $user = User::create([
-        //     'first_name' => 'Admin',
-        //     'last_name' => 'BDE',
-        //     'email' => 'admin@admin.com',
-        //     'password' => bcrypt('admin@admin.com'),
-        //     'is_active' => true,
-        // ]);
-        // /** @var Role $role */
-        // $role = Role::where('name', 'Admin')->first();
-        // if ($role) {
-        //     $user->assignRole([$role->id]);
-        // }
         $admins = [
             [
                 'first_name' => 'Admin',
